@@ -19,7 +19,6 @@ namespace Asesoria_Metodos_.Funciones
             int n2 = int.Parse(Console.ReadLine());
             Console.Clear();
           
-
             switch (opcion)
             {
                 case 1:

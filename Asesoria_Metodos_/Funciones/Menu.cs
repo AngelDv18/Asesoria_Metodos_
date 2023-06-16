@@ -17,8 +17,7 @@ namespace Asesoria_Metodos_.Funciones
             Console.WriteLine("2) Resta");
             Console.WriteLine("3) Multiplicación");
             Console.WriteLine("4) Division");
-            Console.WriteLine("5) Salir del programa");
-            
+            Console.WriteLine("5) Salir del programa");            
         }
     }
 }
