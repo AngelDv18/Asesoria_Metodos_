@@ -4,11 +4,11 @@ using System.ComponentModel.Design;
 
 namespace Asesoria_Metodos_
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
 
-        //tipos de operaciones = operaciones aritmeticas, operaciones condicionales, operaciones logicas.
+        /*tipos de operaciones = operaciones aritmeticas, operaciones condicionales, operaciones logicas.*/
         {
             Console.WriteLine("Hola mundo");
             #region--Condicion if--
@@ -82,7 +82,7 @@ namespace Asesoria_Metodos_
             #endregion
 
             Menu menu = new Menu();
-            Operaciones operaciones = new Operaciones();
+            menu.Opciones();
         }
     }
 }
