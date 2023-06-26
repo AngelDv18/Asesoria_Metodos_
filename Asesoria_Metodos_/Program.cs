@@ -10,7 +10,7 @@ namespace Asesoria_Metodos_
 
         /*tipos de operaciones = operaciones aritmeticas, operaciones condicionales, operaciones logicas.*/
         {
-            Console.WriteLine("Hola mundo");
+            Console.WriteLine("Menu de Opciones");
             #region--Condicion if--
             //Console.WriteLine("Seleciona un dia de la semana");
             //string opcion = Console.ReadLine();
@@ -53,7 +53,6 @@ namespace Asesoria_Metodos_
             //    }
             //}
             #endregion
-
             #region--CONDICION SWITCH--
             //Console.WriteLine("Seleciona un dia de la semana");
             //string opcion = (Console.ReadLine());
@@ -80,7 +79,6 @@ namespace Asesoria_Metodos_
             //        break;
             //}
             #endregion
-
             Menu menu = new Menu();
             menu.Opciones();
         }
